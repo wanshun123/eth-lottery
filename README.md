@@ -1,2 +1,2 @@
 # eth-lottery
-Example solidity contract that sells lottery tickets for 0.01 Ether and generates a random number via random.org once a day to determine a winner 
+This is an example solidity contract that sells lottery tickets for 0.01 Ether and generates a random number via random.org once a day to determine a winner. 5% of ticket sales would go to a charitable address, with 1% going to another contract that token holders would be able to withdraw from, and 1% of ticket sales going to the contract owner - the remaining 93% of ticket sales in Ether would be sent to that days lottery winner. Oraclize is used to call random.org and generate a random number that determines the winner.
